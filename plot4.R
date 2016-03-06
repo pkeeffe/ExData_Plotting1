@@ -36,7 +36,7 @@ lines(plot_df$DateTime, plot_df$Sub_metering_2, col="blue")
 
 lines(plot_df$DateTime, plot_df$Sub_metering_3, col="red")
 
-legend("topright", col = c("black","blue","red"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), lty=1)
+legend("top", col = c("black","blue","red"), legend = c("Sub metering 1","Sub metering 2","Sub metering 3"), lty=1, bty = "n")
 
 # plot the 3rd line chart
 plot(plot_df$DateTime, plot_df$Voltage,
